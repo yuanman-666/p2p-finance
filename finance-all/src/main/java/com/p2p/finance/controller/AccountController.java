@@ -31,7 +31,7 @@ import com.p2p.finance.service.AccountService;
 @RequestMapping("finance/account")
 public class AccountController {
     @Autowired
-    private AccountService accountService;
+    private AccountService accountService; //-
 
     /**
      * 列表
