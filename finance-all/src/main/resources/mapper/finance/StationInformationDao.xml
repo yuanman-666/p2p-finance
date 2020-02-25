@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.p2p.finance.dao.StationInformationDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.p2p.finance.entity.StationInformationEntity" id="stationInformationMap">
+        <result property="sId" column="s_id"/>
+        <result property="sMessageState" column="s_message_state"/>
+        <result property="sMessageContent" column="s_message_content"/>
+        <result property="sSystemTime" column="s_system_time"/>
+        <result property="sInformationType" column="s_information_type"/>
+        <result property="sReceiveUserId" column="s_receive_user_id"/>
+    </resultMap>
+
+
+</mapper>

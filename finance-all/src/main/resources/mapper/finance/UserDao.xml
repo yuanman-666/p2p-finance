@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.p2p.finance.dao.UserDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.p2p.finance.entity.UserEntity" id="userMap">
+        <result property="tId" column="T_ID"/>
+        <result property="tEmail" column="T_EMAIL"/>
+        <result property="tEmailStatus" column="T_EMAIL_STATUS"/>
+        <result property="tIdentity" column="T_IDENTITY"/>
+        <result property="tInvtteid" column="T_INVTTEID"/>
+        <result property="tIp" column="T_IP"/>
+        <result property="tLoginTime" column="T_LOGIN_TIME"/>
+        <result property="tOnlock" column="T_ONLOCK"/>
+        <result property="tPassword" column="T_PASSWORD"/>
+        <result property="tPayPassword" column="T_PAY_PASSWORD"/>
+        <result property="tPayPwdStatus" column="T_PAY_PWD_STATUS"/>
+        <result property="tPhone" column="T_PHONE"/>
+        <result property="tPhoneStatus" column="T_PHONE_STATUS"/>
+        <result property="tRandomCode" column="T_RANDOM_CODE"/>
+        <result property="tRealname" column="T_REALNAME"/>
+        <result property="tRealnameStatus" column="T_REALNAME_STATUS"/>
+        <result property="tRegesterTime" column="T_REGESTER_TIME"/>
+        <result property="tRemark" column="T_REMARK"/>
+        <result property="tSumfriend" column="T_SUMFRIEND"/>
+        <result property="tUserSecure" column="T_USER_SECURE"/>
+        <result property="tUsertype" column="T_USERTYPE"/>
+        <result property="tUsername" column="T_USERNAME"/>
+    </resultMap>
+
+
+</mapper>

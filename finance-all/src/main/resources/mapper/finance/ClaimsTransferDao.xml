@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.p2p.finance.dao.ClaimsTransferDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.p2p.finance.entity.ClaimsTransferEntity" id="claimsTransferMap">
+        <result property="cId" column="c_id"/>
+        <result property="cClaimsId" column="c_claims_id"/>
+        <result property="cTransferSerialNo" column="c_transfer_serial_no"/>
+        <result property="cUserId" column="c_user_id"/>
+        <result property="cClaimsType" column="c_claims_type"/>
+        <result property="cTransferDate" column="c_transfer_date"/>
+        <result property="cClaimsWeight" column="c_claims_weight"/>
+        <result property="cTransferMoney" column="c_transfer_money"/>
+        <result property="cAuditStatus" column="c_audit_status"/>
+        <result property="cIsLocked" column="c_is_locked"/>
+    </resultMap>
+
+
+</mapper>

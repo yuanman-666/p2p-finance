@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.p2p.finance.dao.DebtInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.p2p.finance.entity.DebtInfoEntity" id="debtInfoMap">
+        <result property="dId" column="d_id"/>
+        <result property="dDebtNo" column="d_debt_no"/>
+        <result property="dContractNo" column="d_contract_No"/>
+        <result property="dDebtorsName" column="d_debtors_Name"/>
+        <result property="dDebtorsId" column="d_debtors_Id"/>
+        <result property="dLoanPurpose" column="d_loan_Purpose"/>
+        <result property="dLoanType" column="d_loan_Type"/>
+        <result property="dLoanStartDate" column="d_loan_Start_Date"/>
+        <result property="dLoanPeriod" column="d_loan_Period"/>
+        <result property="dLoanEndDate" column="d_loan_End_Date"/>
+        <result property="dRepaymentStyle" column="d_repayment_Style"/>
+        <result property="dRepaymenDate" column="d_repaymen_Date"/>
+        <result property="dRepaymenMoney" column="d_repaymen_Money"/>
+        <result property="dDebtMoney" column="d_debt_Money"/>
+        <result property="dDebtYearRate" column="d_debt_Year_Rate"/>
+        <result property="dDebtMonthRate" column="d_debt_Month_Rate"/>
+        <result property="dDebtTransferredMoney" column="d_debt_Transferred_Money"/>
+        <result property="dDebtTransferredDate" column="d_debt_Transferred_Date"/>
+        <result property="dDebtTransferredPeriod" column="d_debt_Transferred_Period"/>
+        <result property="dDebtRansferOutDate" column="d_debt_Ransfer_Out_Date"/>
+        <result property="dCreditor" column="d_creditor"/>
+        <result property="dDebtStatus" column="d_debt_Status"/>
+        <result property="dBorrowerId" column="d_borrower_Id"/>
+        <result property="dAvailablePeriod" column="d_available_Period"/>
+        <result property="dAvailableMoney" column="d_available_Money"/>
+        <result property="dMatchedMoney" column="d_matched_Money"/>
+        <result property="dMatchedStatus" column="d_matched_Status"/>
+        <result property="dRepaymentStyleName" column="d_repayment_style_name"/>
+        <result property="dDebtStatusName" column="d_debt_status_name"/>
+        <result property="dMatchedStatusName" column="d_matched_status_name"/>
+        <result property="dDebtType" column="d_debt_type"/>
+        <result property="dDebtTypeName" column="d_debt_type_name"/>
+    </resultMap>
+
+
+</mapper>

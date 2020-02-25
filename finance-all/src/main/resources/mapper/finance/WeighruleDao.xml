@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.p2p.finance.dao.WeighruleDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.p2p.finance.entity.WeighruleEntity" id="weighruleMap">
+        <result property="tId" column="T_ID"/>
+        <result property="tSerialno" column="T_SERIALNO"/>
+        <result property="tWeighruleName" column="T_WEIGHRULE_NAME"/>
+        <result property="tWeigthruleClass" column="T_WEIGTHRULE_CLASS"/>
+        <result property="tWeigthType" column="T_WEIGTH_TYPE"/>
+        <result property="tWeigthValue" column="T_WEIGTH_VALUE"/>
+        <result property="tOrder" column="T_ORDER"/>
+        <result property="tWeigthruleClassname" column="T_WEIGTHRULE_CLASSNAME"/>
+    </resultMap>
+
+
+</mapper>

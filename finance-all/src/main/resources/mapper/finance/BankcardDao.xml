@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.p2p.finance.dao.BankcardDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.p2p.finance.entity.BankcardEntity" id="bankcardMap">
+        <result property="tId" column="T_ID"/>
+        <result property="tNum" column="T_NUM"/>
+        <result property="tBank" column="T_BANK"/>
+        <result property="tCityId" column="T_CITY_ID"/>
+        <result property="tUserId" column="T_USER_ID"/>
+        <result property="tBankId" column="T_BANK_ID"/>
+        <result property="tBankBranch" column="T_BANK_BRANCH"/>
+        <result property="tPhoneNum" column="T_PHONE_NUM"/>
+    </resultMap>
+
+
+</mapper>

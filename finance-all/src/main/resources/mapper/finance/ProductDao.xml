@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.p2p.finance.dao.ProductDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.p2p.finance.entity.ProductEntity" id="productMap">
+        <result property="tPid" column="T_PID"/>
+        <result property="tClosePreiod" column="T_CLOSE_PREIOD"/>
+        <result property="tEarlyRedeptionType" column="T_EARLY_REDEPTION_TYPE"/>
+        <result property="tEartingType" column="T_EARTING_TYPE"/>
+        <result property="tInvestRule" column="T_INVEST_RULE"/>
+        <result property="tAllowTransfer" column="T_ALLOW_TRANSFER"/>
+        <result property="tIsRepeatInvest" column="T_IS_REPEAT_INVEST"/>
+        <result property="tLowerLimit" column="T_LOWER_LIMIT"/>
+        <result property="tLowerInvest" column="T_LOWER_INVEST"/>
+        <result property="tPronum" column="T_PRONUM"/>
+        <result property="tProtypeId" column="T_PROTYPE_ID"/>
+        <result property="tUpperInvest" column="T_UPPER_INVEST"/>
+        <result property="tProductName" column="T_PRODUCT_NAME"/>
+        <result property="tStatus" column="T_STATUS"/>
+        <result property="tUpperLimit" column="T_UPPER_LIMIT"/>
+        <result property="tReturnMoney" column="T_RETURN_MONEY"/>
+    </resultMap>
+
+
+</mapper>

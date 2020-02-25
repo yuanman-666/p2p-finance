@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.p2p.finance.dao.AccountDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.p2p.finance.entity.AccountEntity" id="accountMap">
+        <result property="tId" column="T_ID"/>
+        <result property="tUserid" column="T_USERID"/>
+        <result property="tTotal" column="T_TOTAL"/>
+        <result property="tBalance" column="T_BALANCE"/>
+        <result property="tFrozen" column="T_FROZEN"/>
+        <result property="tInverstmentw" column="T_INVERSTMENTW"/>
+        <result property="tInterestTotal" column="T_INTEREST_TOTAL"/>
+        <result property="tAddCaptialTatal" column="T_ADD_CAPTIAL_TATAL"/>
+        <result property="tRecyclingInterest" column="T_RECYCLING_INTEREST"/>
+        <result property="tCapitalTotal" column="T_CAPITAL_TOTAL"/>
+        <result property="tInverstmenta" column="T_INVERSTMENTA"/>
+        <result property="tInteresta" column="T_INTERESTA"/>
+        <result property="tUapplyExtractMoney" column="T_UAPPLY_EXTRACT_MONEY"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.p2p.finance.dao.ExpectedReturnDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.p2p.finance.entity.ExpectedReturnEntity" id="expectedReturnMap">
+        <result property="tId" column="T_ID"/>
+        <result property="tUid" column="T_UID"/>
+        <result property="tPid" column="T_PID"/>
+        <result property="tRid" column="T_RID"/>
+        <result property="tExpectedDate" column="T_EXPECTED_DATE"/>
+        <result property="tExpectedMoney" column="T_EXPECTED_MONEY"/>
+        <result property="tCreateDate" column="T_CREATE_DATE"/>
+    </resultMap>
+
+
+</mapper>
