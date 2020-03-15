@@ -31,5 +31,7 @@ public class GmallCorsConfig {
         urlBasedCorsConfigurationSource.registerCorsConfiguration("/**",corsConfiguration );
         //corsair过滤器对象
         return new CorsWebFilter(urlBasedCorsConfigurationSource);
+
+双击评论666
     }
 }
