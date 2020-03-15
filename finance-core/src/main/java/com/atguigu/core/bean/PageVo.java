@@ -20,7 +20,6 @@ import java.util.List;
  *
  * @author Mark sunlightcs@gmail.com
  */
-//我做修改了1
 @ApiModel
 @Data
 public class PageVo implements Serializable {
